@@ -1,0 +1,23 @@
+[Keyboard]
+NumLock=0
+
+[Libinput][1133][50504][Logitech USB Receiver]
+NaturalScroll=true
+PointerAcceleration=-0.600
+
+[Libinput][1133][50504][Logitech USB Receiver Consumer Control]
+ScrollFactor=1
+
+[Libinput][1133][50504][Logitech USB Receiver Mouse]
+NaturalScroll=false
+PointerAcceleration=-0.600
+PointerAccelerationProfile=2
+
+[Libinput][2][14][ETPS/2 Elantech Touchpad]
+NaturalScroll=true
+PointerAcceleration=0.000
+ScrollFactor=0.5
+
+[Mouse]
+cursorSize=30
+cursorTheme=Breeze_Light
