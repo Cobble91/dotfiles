@@ -17,7 +17,20 @@ plugin=org.kde.plasma.folder
 wallpaperplugin=org.kde.image
 
 [Containments][73][General]
-positions={"1920x1080":[]}
+positions={"1920x1080":["1","17"]}
+sortMode=-1
+
+[Containments][73][Wallpaper][com.github.catsout.wallpaperEngineKde][General]
+SteamLibraryPath[$e]=file:$HOME/.local/share/Steam
+WallpaperSource[$e]=file:$HOME/.local/share/Steam/steamapps/workshop/content/431960/945394445/end 2.0.mp4+video
+WallpaperWorkShopId=945394445
+
+[Containments][73][Wallpaper][org.kde.image][General]
+Image=/usr/share/wallpapers/Next/
+SlidePaths=/usr/share/wallpapers/
+
+[Containments][73][Wallpaper][org.kde.potd][General]
+FillMode=6
 
 [Containments][74]
 activityId=
@@ -70,7 +83,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][74][Applets][79][Configuration]
-PreloadWeight=55
+PreloadWeight=60
 SystrayContainmentId=80
 
 [Containments][74][Applets][92]
@@ -160,14 +173,14 @@ immutability=1
 plugin=org.kde.plasma.battery
 
 [Containments][80][Applets][94][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][80][Applets][95]
 immutability=1
 plugin=org.kde.plasma.brightness
 
 [Containments][80][Applets][95][Configuration]
-PreloadWeight=2
+PreloadWeight=0
 
 [Containments][80][Applets][96]
 immutability=1
@@ -178,7 +191,7 @@ immutability=1
 plugin=org.kde.plasma.mediacontroller
 
 [Containments][80][Applets][97][Configuration]
-PreloadWeight=10
+PreloadWeight=0
 
 [Containments][80][General]
 extraItems=org.kde.plasma.brightness,org.kde.plasma.vault,org.kde.plasma.clipboard,org.kde.plasma.notifications,org.kde.plasma.keyboardlayout,org.kde.plasma.manage-inputmethod,org.kde.plasma.printmanager,org.kde.plasma.mediacontroller,org.kde.plasma.bluetooth,org.kde.plasma.volume,org.kde.plasma.devicenotifier,org.kde.plasma.networkmanagement,org.kde.kscreen,org.kde.plasma.battery,org.kde.plasma.cameraindicator,org.kde.plasma.keyboardindicator

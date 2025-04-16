@@ -1,0 +1,681 @@
+[2025-04-13 19:16:21.481] [info]  [EleriumCommunicationLayer] setCfCoreHost called with https://api.curseforge.com.
+[2025-04-13 19:16:21.492] [info]  [ConfigurationServiceImpl] Current env: release.
+[2025-04-13 19:16:21.512] [info]  [BackgroundController] App version: 1.275.1.24561.
+[2025-04-13 19:16:21.512] [info]  [BackgroundController] OS: linux.
+[2025-04-13 19:16:21.514] [info]  [BackgroundController] OS version: 6.14.2-arch1-1.
+[2025-04-13 19:16:21.514] [info]  [BackgroundController] App startup args: /tmp/.mount_CurseFRPnuET/curseforge.
+[2025-04-13 19:16:22.809] [info]  [BackgroundController] Electron App Ready. Continuing Initialization....
+[2025-04-13 19:16:22.811] [info]  [ClientOverridesImpl] Fetching https://curseforge.overwolf.com/downloads/client-overrides-v2.json ....
+[2025-04-13 19:16:23.102] [info]  [AppUpdateServiceImpl] Checking if app has an update which is available locally..
+[2025-04-13 19:16:23.103] [info]  [AppUpdateServiceImpl] Checking for available application updates. Current app version is 1.275.1-24561.
+[2025-04-13 19:16:23.104] [info]  Checking for update
+[2025-04-13 19:16:23.104] [info]  Electron Updater - Checking for application update
+[2025-04-13 19:16:23.106] [info]  Generated new staging user ID: d599d6f4-915f-51fd-b7f2-9f457e796624
+[2025-04-13 19:16:23.329] [info]  Update for version 1.275.1-24561 is not available (latest version: 1.275.1-24561, downgrade is disallowed).
+[2025-04-13 19:16:23.330] [info]  Electron Updater - App update is not available. Latest Version: 1.275.1-24561. Release Date: 2025-03-30T07:09:50.186Z
+[2025-04-13 19:16:23.331] [info]  [AppUpdateServiceImpl] No updates are available for the app..
+[2025-04-13 19:16:24.311] [info]  [SessionStartedEventHandler] App session started.
+[2025-04-13 19:16:24.319] [info]  [AutoUpdaterServiceImpl] Starting Auto Updater Service.
+[2025-04-13 19:16:24.319] [info]  [AutoUpdaterServiceImpl] Auto updater is disabled by configuration.
+[2025-04-13 19:16:24.320] [info]  [LoginService] Logging out.
+[2025-04-13 19:16:24.326] [info]  [MinecraftUsersChangedEventHandler] Minecraft Users info loaded.
+[2025-04-13 19:16:24.327] [info]  [LoggedOutEventHandler] User is logged out.
+[2025-04-13 19:16:24.328] [info]  [MarketingVideosServiceImpl] Fetching https://mrkt.forgecdn.net/app-vids/onboarding_videos.json ....
+[2025-04-13 19:16:24.331] [info]  [AppUpdatePeriodicChecker] Running periodic app update check.
+[2025-04-13 19:16:24.331] [info]  [AppUpdateServiceImpl] Checking for available application updates. Current app version is 1.275.1-24561.
+[2025-04-13 19:16:24.331] [info]  Checking for update
+[2025-04-13 19:16:24.331] [info]  Electron Updater - Checking for application update
+[2025-04-13 19:16:24.365] [info]  Update for version 1.275.1-24561 is not available (latest version: 1.275.1-24561, downgrade is disallowed).
+[2025-04-13 19:16:24.366] [info]  Electron Updater - App update is not available. Latest Version: 1.275.1-24561. Release Date: 2025-03-30T07:09:50.186Z
+[2025-04-13 19:16:24.366] [info]  [AppUpdateServiceImpl] No updates are available for the app..
+[2025-04-13 19:16:24.368] [info]  [AppUpdatePeriodicChecker] No app update. Scheduling the next update check in 900000 milliseconds.
+[2025-04-13 19:16:24.512] [info]  [PluginCommunication] Connecting to Mods Agent.
+[2025-04-13 19:16:24.513] [info]  [PluginProcessHost] Starting Mods Agent with ports range 49701-49721.
+[2025-04-13 19:16:24.514] [info]  [PluginProcessHost] Launching Mods Agent process /tmp/.mount_CurseFRPnuET/resources/app.asar.unpacked/plugins/curse/linux/Curse.Agent.Host with args: --port=49701,--to-port=49721,--pid=15264,--appDataPath=/home/eric/.config/CurseForge,--clientId=Overwolf.
+[2025-04-13 19:16:24.626] [info]  [UptimeRobotApi] Executing GET request https://health.curseforge.com/app/monitorStatus.json.
+[2025-04-13 19:16:24.675] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_page_changed&MUID=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&MUIDV2=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&owver=31.7.9&Extra=%7B%22app_ver%22%3A%221.275.1.24561%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22currentAppPage%22%3A%22HomePage%22%7D.
+[2025-04-13 19:16:24.752] [info]  [UptimeRobotApi] Executed GET request https://health.curseforge.com/app/monitorStatus.json. Status code: 200.
+[2025-04-13 19:16:24.810] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_page_changed&MUID=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&MUIDV2=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&owver=31.7.9&Extra=%7B%22app_ver%22%3A%221.275.1.24561%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22currentAppPage%22%3A%22HomePage%22%7D. Status code: 200.
+[2025-04-13 19:16:24.927] [info]  [PluginProcessHost] Agent stdout: Starting CurseForge Agent Host.
+[2025-04-13 19:16:25.640] [info]  [PluginProcessHost] Agent stdout: Agent Data path is /home/eric/.config/CurseForge/agent.
+[2025-04-13 19:16:25.641] [info]  [PluginProcessHost] Agent stdout: Agent Log path is /home/eric/.config/CurseForge/agent/logs.
+[2025-04-13 19:16:27.810] [info]  [PluginProcessHost] Agent stdout: 04/13/2025 19:16:27 [Info] Server started at ws://127.0.0.1:49701/CurseForge (actual port 49701) .
+[2025-04-13 19:16:27.810] [info]  [PluginProcessHost] Mods Agent started. pid: 15815, port: 49701.
+[2025-04-13 19:16:27.811] [info]  [PluginWebSocket] Connecting to Mods Agent CurseForge on ports range 49701-49701.
+[2025-04-13 19:16:27.833] [info]  [PluginProcessHost] Agent stdout: Mods Agent server started on port 49701.
+[2025-04-13 19:16:27.921] [info]  [PluginWebSocket] Connected to mods agent.
+[2025-04-13 19:16:27.922] [info]  [PluginWebSocket] Connected to Mods Agent on port 49701.
+[2025-04-13 19:16:29.514] [info]  [GamesScanStartedEventHandler] Games scan started. Comprehensive: false.
+[2025-04-13 19:16:29.640] [info]  [GamesScanCompletedEventHandler] Games scan completed. Comprehensive: false. Canceled: false.
+[2025-04-13 19:16:29.676] [info]  [CoreServiceImpl] Mods agent was initialized successfully.
+[2025-04-13 19:16:29.733] [info]  [AppConnectivityService] Reporting app connectivity.
+[2025-04-13 19:16:29.734] [info]  [AnalyticsService] Executing POST request https://tracking.overwolf.com/tracking/InsertStats?Stats=true.
+[2025-04-13 19:16:29.938] [info]  [AnalyticsService] Executed POST request https://tracking.overwolf.com/tracking/InsertStats?Stats=true. Status code: 200.
+[2025-04-13 19:16:29.938] [info]  [AnalyticsService] Sent a Grafana event to https://tracking.overwolf.com/tracking/InsertStats?Stats=true.
+[2025-04-13 19:16:29.945] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_session_info&MUID=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&MUIDV2=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&owver=31.7.9&Extra=%7B%22app_ver%22%3A%221.275.1.24561%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22isLoggedIn%22%3Afalse%2C%22isSyncEnabled%22%3Afalse%2C%22appLanguage%22%3A%22en%22%7D.
+[2025-04-13 19:16:30.072] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_session_info&MUID=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&MUIDV2=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&owver=31.7.9&Extra=%7B%22app_ver%22%3A%221.275.1.24561%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22isLoggedIn%22%3Afalse%2C%22isSyncEnabled%22%3Afalse%2C%22appLanguage%22%3A%22en%22%7D. Status code: 200.
+[2025-04-13 19:16:30.073] [info]  [ElectronApplication] CRN Api is not available.
+[2025-04-13 19:16:30.079] [info]  [AppLaunchService] No install params to launch and install project.
+[2025-04-13 19:16:39.663] [error] [LoginService] Failed to register login scheme. This might create issues with the login process..
+[2025-04-13 19:16:39.666] [info]  [ElectronPlatformServiceImpl] Opening external uri: https://curseforge.overwolf.com/auth/v3/login-start.html?**masked** ....
+[2025-04-13 19:16:39.672] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_user_action&MUID=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&MUIDV2=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&owver=31.7.9&Extra=%7B%22app_ver%22%3A%221.275.1.24561%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22action%22%3A%22performUserLogin%22%2C%22currentAppPage%22%3A%22HomePage%22%2C%22value%22%3Anull%2C%22gameId%22%3A%22NaN%22%7D.
+[2025-04-13 19:16:39.808] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_user_action&MUID=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&MUIDV2=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&owver=31.7.9&Extra=%7B%22app_ver%22%3A%221.275.1.24561%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22action%22%3A%22performUserLogin%22%2C%22currentAppPage%22%3A%22HomePage%22%2C%22value%22%3Anull%2C%22gameId%22%3A%22NaN%22%7D. Status code: 200.
+[2025-04-13 19:17:20.020] [info]  [SessionsService] session ended.
+[2025-04-13 19:17:36.503] [info]  [BackgroundController] Request to shutdown from tray ....
+[2025-04-13 19:17:36.505] [info]  [BackgroundController] Shutting down....
+[2025-04-13 19:17:36.507] [info]  [CoreServiceImpl] Performing shutdown cleanup actions.
+[2025-04-13 19:17:36.509] [info]  [InstalledAddonsServiceImpl] Cleanup - committing deletion transactions.
+[2025-04-13 19:17:36.511] [info]  [InstalledAddonsServiceImpl] Flushing 0 projects which are pending deletion.
+[2025-04-13 19:17:36.513] [info]  [CoreServiceImpl] Shutdown cleanup actions complete.
+[2025-04-13 19:17:36.515] [info]  [PluginCommunication] Shutting down the Mods Agent.
+[2025-04-13 19:17:36.537] [info]  [PluginWebSocket] Websocket connection to agent was closed. Reason: , Code: 1006, Type: close. WasClean: false.
+[2025-04-13 19:17:36.537] [error] [PluginWebSocket] Websocket connection error. Error: undefined, Message: undefined, Type: undefined.
+[2025-04-13 19:17:36.544] [info]  [PluginProcessHost] Mods Agent process closed. connected: false.
+[2025-04-13 19:17:36.545] [warn]  [PluginProcessHost] Agent process exited with exit code null.
+[2025-04-13 19:17:36.545] [info]  [PluginCommunication] Agent process disconnected with code: null.
+[2025-04-13 19:17:36.546] [info]  [PluginCommunication] Terminating any pending agent requests.
+[2025-04-13 19:17:36.546] [error] [DiscordServiceImpl] Failed to update Discord Rich Presence: plugin not connected.
+[2025-04-13 19:17:36.547] [error] [UserActivityAppServiceImpl] Failed clearUserActivity. Error: Failed to update Discord Rich Presence
+[2025-04-13 19:17:36.547] [info]  [BackgroundController] Destroying desktop window....
+[2025-04-13 19:17:36.553] [info]  [AutoUpdaterServiceImpl] Stopping Auto Updater Service.
+[2025-04-13 19:17:36.554] [info]  [BackgroundController] Shutdown complete. Exiting app....
+[2025-04-13 19:17:41.631] [info]  [EleriumCommunicationLayer] setCfCoreHost called with https://api.curseforge.com.
+[2025-04-13 19:17:41.641] [info]  [ConfigurationServiceImpl] Current env: release.
+[2025-04-13 19:17:41.661] [info]  [BackgroundController] App version: 1.275.1.24561.
+[2025-04-13 19:17:41.662] [info]  [BackgroundController] OS: linux.
+[2025-04-13 19:17:41.662] [info]  [BackgroundController] OS version: 6.14.2-arch1-1.
+[2025-04-13 19:17:41.663] [info]  [BackgroundController] App startup args: /tmp/.mount_CurseF91VxOk/curseforge.
+[2025-04-13 19:17:42.883] [info]  [BackgroundController] Electron App Ready. Continuing Initialization....
+[2025-04-13 19:17:42.886] [info]  [ClientOverridesImpl] Fetching https://curseforge.overwolf.com/downloads/client-overrides-v2.json ....
+[2025-04-13 19:17:43.174] [info]  [AppUpdateServiceImpl] Checking if app has an update which is available locally..
+[2025-04-13 19:17:43.174] [info]  [AppUpdateServiceImpl] Checking for available application updates. Current app version is 1.275.1-24561.
+[2025-04-13 19:17:43.175] [info]  Checking for update
+[2025-04-13 19:17:43.175] [info]  Electron Updater - Checking for application update
+[2025-04-13 19:17:43.342] [info]  Update for version 1.275.1-24561 is not available (latest version: 1.275.1-24561, downgrade is disallowed).
+[2025-04-13 19:17:43.342] [info]  Electron Updater - App update is not available. Latest Version: 1.275.1-24561. Release Date: 2025-03-30T07:09:50.186Z
+[2025-04-13 19:17:43.344] [info]  [AppUpdateServiceImpl] No updates are available for the app..
+[2025-04-13 19:17:44.282] [info]  [SessionStartedEventHandler] App session started.
+[2025-04-13 19:17:44.291] [info]  [AutoUpdaterServiceImpl] Starting Auto Updater Service.
+[2025-04-13 19:17:44.291] [info]  [AutoUpdaterServiceImpl] Auto updater is disabled by configuration.
+[2025-04-13 19:17:44.292] [info]  [LoginService] Logging out.
+[2025-04-13 19:17:44.299] [info]  [MinecraftUsersChangedEventHandler] Minecraft Users info loaded.
+[2025-04-13 19:17:44.300] [info]  [LoggedOutEventHandler] User is logged out.
+[2025-04-13 19:17:44.301] [info]  [MarketingVideosServiceImpl] Fetching https://mrkt.forgecdn.net/app-vids/onboarding_videos.json ....
+[2025-04-13 19:17:44.304] [info]  [AppUpdatePeriodicChecker] Running periodic app update check.
+[2025-04-13 19:17:44.305] [info]  [AppUpdateServiceImpl] Checking for available application updates. Current app version is 1.275.1-24561.
+[2025-04-13 19:17:44.305] [info]  Checking for update
+[2025-04-13 19:17:44.305] [info]  Electron Updater - Checking for application update
+[2025-04-13 19:17:44.340] [info]  Update for version 1.275.1-24561 is not available (latest version: 1.275.1-24561, downgrade is disallowed).
+[2025-04-13 19:17:44.341] [info]  Electron Updater - App update is not available. Latest Version: 1.275.1-24561. Release Date: 2025-03-30T07:09:50.186Z
+[2025-04-13 19:17:44.341] [info]  [AppUpdateServiceImpl] No updates are available for the app..
+[2025-04-13 19:17:44.342] [info]  [AppUpdatePeriodicChecker] No app update. Scheduling the next update check in 900000 milliseconds.
+[2025-04-13 19:17:44.475] [info]  [PluginCommunication] Connecting to Mods Agent.
+[2025-04-13 19:17:44.476] [info]  [PluginProcessHost] Starting Mods Agent with ports range 55118-55138.
+[2025-04-13 19:17:44.477] [info]  [PluginProcessHost] Launching Mods Agent process /tmp/.mount_CurseF91VxOk/resources/app.asar.unpacked/plugins/curse/linux/Curse.Agent.Host with args: --port=55118,--to-port=55138,--pid=16477,--appDataPath=/home/eric/.config/CurseForge,--clientId=Overwolf.
+[2025-04-13 19:17:44.615] [info]  [UptimeRobotApi] Executing GET request https://health.curseforge.com/app/monitorStatus.json.
+[2025-04-13 19:17:44.696] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_page_changed&MUID=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&MUIDV2=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&owver=31.7.9&Extra=%7B%22app_ver%22%3A%221.275.1.24561%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22currentAppPage%22%3A%22HomePage%22%7D.
+[2025-04-13 19:17:44.742] [info]  [UptimeRobotApi] Executed GET request https://health.curseforge.com/app/monitorStatus.json. Status code: 200.
+[2025-04-13 19:17:44.841] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_page_changed&MUID=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&MUIDV2=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&owver=31.7.9&Extra=%7B%22app_ver%22%3A%221.275.1.24561%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22currentAppPage%22%3A%22HomePage%22%7D. Status code: 200.
+[2025-04-13 19:17:44.844] [info]  [PluginProcessHost] Agent stdout: Starting CurseForge Agent Host.
+[2025-04-13 19:17:45.506] [info]  [PluginProcessHost] Agent stdout: Agent Data path is /home/eric/.config/CurseForge/agent.
+[2025-04-13 19:17:45.507] [info]  [PluginProcessHost] Agent stdout: Agent Log path is /home/eric/.config/CurseForge/agent/logs.
+[2025-04-13 19:17:47.571] [info]  [PluginProcessHost] Agent stdout: 04/13/2025 19:17:47 [Info] Server started at ws://127.0.0.1:55118/CurseForge (actual port 55118) .
+[2025-04-13 19:17:47.572] [info]  [PluginProcessHost] Mods Agent started. pid: 17032, port: 55118.
+[2025-04-13 19:17:47.573] [info]  [PluginWebSocket] Connecting to Mods Agent CurseForge on ports range 55118-55118.
+[2025-04-13 19:17:47.593] [info]  [PluginProcessHost] Agent stdout: Mods Agent server started on port 55118.
+[2025-04-13 19:17:47.676] [info]  [PluginWebSocket] Connected to mods agent.
+[2025-04-13 19:17:47.677] [info]  [PluginWebSocket] Connected to Mods Agent on port 55118.
+[2025-04-13 19:17:54.113] [info]  [GamesScanStartedEventHandler] Games scan started. Comprehensive: false.
+[2025-04-13 19:17:54.226] [info]  [GamesScanCompletedEventHandler] Games scan completed. Comprehensive: false. Canceled: false.
+[2025-04-13 19:17:54.259] [info]  [CoreServiceImpl] Mods agent was initialized successfully.
+[2025-04-13 19:17:54.317] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_session_info&MUID=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&MUIDV2=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&owver=31.7.9&Extra=%7B%22app_ver%22%3A%221.275.1.24561%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22isLoggedIn%22%3Afalse%2C%22isSyncEnabled%22%3Afalse%2C%22appLanguage%22%3A%22en%22%7D.
+[2025-04-13 19:17:54.474] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_session_info&MUID=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&MUIDV2=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&owver=31.7.9&Extra=%7B%22app_ver%22%3A%221.275.1.24561%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22isLoggedIn%22%3Afalse%2C%22isSyncEnabled%22%3Afalse%2C%22appLanguage%22%3A%22en%22%7D. Status code: 200.
+[2025-04-13 19:17:54.476] [info]  [ElectronApplication] CRN Api is not available.
+[2025-04-13 19:17:54.965] [info]  [ReleaseNotesApiImpl] Fetching /1.275.1.24561/release-notes/1 ....
+[2025-04-13 19:17:55.060] [info]  [CampaignApi] Executing GET request https://content.overwolf.com/curseforge/app/campaigns/config/campaign-config.json.
+[2025-04-13 19:17:55.063] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_ads_promo_video_event&MUID=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&MUIDV2=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&owver=31.7.9&Extra=%7B%22app_ver%22%3A%221.275.1.24561%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22status%22%3A%22loading%22%2C%22url%22%3A%22https%3A%2F%2Fmrkt.forgecdn.net%2Fapp-vids%2Fonboard%2Fonboarding_1.webm%22%7D.
+[2025-04-13 19:17:55.102] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_ads_promo_video_event&MUID=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&MUIDV2=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&owver=31.7.9&Extra=%7B%22app_ver%22%3A%221.275.1.24561%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22status%22%3A%22loading%22%2C%22url%22%3A%22https%3A%2F%2Fmrkt.forgecdn.net%2Fapp-vids%2Fonboard%2Fonboarding_1.webm%22%7D. Status code: 200.
+[2025-04-13 19:17:55.193] [info]  [CampaignApi] Executed GET request https://content.overwolf.com/curseforge/app/campaigns/config/campaign-config.json. Status code: 200.
+[2025-04-13 19:17:55.317] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_ads_promo_video_event&MUID=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&MUIDV2=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&owver=31.7.9&Extra=%7B%22app_ver%22%3A%221.275.1.24561%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22status%22%3A%22playing%22%2C%22url%22%3A%22https%3A%2F%2Fmrkt.forgecdn.net%2Fapp-vids%2Fonboard%2Fonboarding_1.webm%22%7D.
+[2025-04-13 19:17:55.359] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_ads_promo_video_event&MUID=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&MUIDV2=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&owver=31.7.9&Extra=%7B%22app_ver%22%3A%221.275.1.24561%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22status%22%3A%22playing%22%2C%22url%22%3A%22https%3A%2F%2Fmrkt.forgecdn.net%2Fapp-vids%2Fonboard%2Fonboarding_1.webm%22%7D. Status code: 200.
+[2025-04-13 19:17:58.808] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_release_notes_measurement&MUID=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&MUIDV2=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&owver=31.7.9&Extra=%7B%22app_ver%22%3A%221.275.1.24561%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22dismissalType%22%3A%22x_button%22%2C%22modalOpenDuration%22%3A0%2C%22scrolledToBottom%22%3Afalse%2C%22curseforgeWindowHeight%22%3A816%7D.
+[2025-04-13 19:17:58.850] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_release_notes_measurement&MUID=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&MUIDV2=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&owver=31.7.9&Extra=%7B%22app_ver%22%3A%221.275.1.24561%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22dismissalType%22%3A%22x_button%22%2C%22modalOpenDuration%22%3A0%2C%22scrolledToBottom%22%3Afalse%2C%22curseforgeWindowHeight%22%3A816%7D. Status code: 200.
+[2025-04-13 19:18:03.634] [info]  [EleriumCommunicationLayer] Request - GET v1/categories - params: {"gameId":432,"classesOnly":true}.
+[2025-04-13 19:18:03.644] [info]  [EleriumCommunicationLayer] Request - GET v1/categories - params: {"gameId":432,"classId":4471}.
+[2025-04-13 19:18:03.653] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_page_changed&MUID=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&MUIDV2=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&owver=31.7.9&Extra=%7B%22app_ver%22%3A%221.275.1.24561%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22currentAppPage%22%3A%22MyModsPage%22%7D.
+[2025-04-13 19:18:03.657] [info]  [MeasurementServiceImpl] starting measurement game-dau.
+[2025-04-13 19:18:03.694] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_page_changed&MUID=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&MUIDV2=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&owver=31.7.9&Extra=%7B%22app_ver%22%3A%221.275.1.24561%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22currentAppPage%22%3A%22MyModsPage%22%7D. Status code: 200.
+[2025-04-13 19:18:03.778] [info]  [EleriumCommunicationLayer] Request - GET v1/categories - params: {"gameId":432,"classId":6}.
+[2025-04-13 19:18:03.823] [info]  [EleriumCommunicationLayer] Request - GET v1/categories - params: {"gameId":432,"classId":12}.
+[2025-04-13 19:18:03.857] [info]  [EleriumCommunicationLayer] Request - GET v1/categories - params: {"gameId":432,"classId":6552}.
+[2025-04-13 19:18:03.890] [info]  [EleriumCommunicationLayer] Request - GET v1/categories - params: {"gameId":432,"classId":17}.
+[2025-04-13 19:18:03.977] [info]  [MinecraftLoginAppServiceImpl] Get Microsoft Users Info.
+[2025-04-13 19:18:04.000] [info]  [MinecraftLoginAppServiceImpl] Get Microsoft User Info.
+[2025-04-13 19:18:08.460] [info]  [MinecraftInstallationServiceImpl] Changing location to: /home/eric/Documents/curseforge/minecraft.
+[2025-04-13 19:18:13.673] [info]  [AnalyticsService] trackDailyUnique is unique: true.
+[2025-04-13 19:18:13.675] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_daily_active_user_per_game&MUID=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&MUIDV2=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&owver=31.7.9&Extra=%5B%7B%22Name%22%3A%22app_ver%22%2C%22Value%22%3A%221.275.1.24561%22%7D%2C%7B%22Name%22%3A%22os_ver%22%2C%22Value%22%3A%22linux%22%7D%2C%7B%22Name%22%3A%22app_type%22%2C%22Value%22%3A%22Electron%22%7D%2C%7B%22Name%22%3A%22game_id%22%2C%22Value%22%3A432%7D%2C%7B%22Name%22%3A%22gameId%22%2C%22Value%22%3A432%7D%5D.
+[2025-04-13 19:18:13.816] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_daily_active_user_per_game&MUID=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&MUIDV2=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&owver=31.7.9&Extra=%5B%7B%22Name%22%3A%22app_ver%22%2C%22Value%22%3A%221.275.1.24561%22%7D%2C%7B%22Name%22%3A%22os_ver%22%2C%22Value%22%3A%22linux%22%7D%2C%7B%22Name%22%3A%22app_type%22%2C%22Value%22%3A%22Electron%22%7D%2C%7B%22Name%22%3A%22game_id%22%2C%22Value%22%3A432%7D%2C%7B%22Name%22%3A%22gameId%22%2C%22Value%22%3A432%7D%5D. Status code: 200.
+[2025-04-13 19:18:19.356] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_ads_promo_video_event&MUID=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&MUIDV2=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&owver=31.7.9&Extra=%7B%22app_ver%22%3A%221.275.1.24561%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22status%22%3A%22played%22%2C%22url%22%3A%22https%3A%2F%2Fmrkt.forgecdn.net%2Fapp-vids%2Fonboard%2Fonboarding_1.webm%22%7D.
+[2025-04-13 19:18:19.432] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_ads_library_initialized&MUID=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&MUIDV2=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&owver=31.7.9&Extra=%7B%22app_ver%22%3A%221.275.1.24561%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%7D.
+[2025-04-13 19:18:19.465] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_ads_library_initialized&MUID=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&MUIDV2=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&owver=31.7.9&Extra=%7B%22app_ver%22%3A%221.275.1.24561%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%7D.
+[2025-04-13 19:18:19.512] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_ads_promo_video_event&MUID=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&MUIDV2=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&owver=31.7.9&Extra=%7B%22app_ver%22%3A%221.275.1.24561%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22status%22%3A%22played%22%2C%22url%22%3A%22https%3A%2F%2Fmrkt.forgecdn.net%2Fapp-vids%2Fonboard%2Fonboarding_1.webm%22%7D. Status code: 200.
+[2025-04-13 19:18:19.589] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_ads_library_initialized&MUID=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&MUIDV2=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&owver=31.7.9&Extra=%7B%22app_ver%22%3A%221.275.1.24561%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%7D. Status code: 200.
+[2025-04-13 19:18:19.612] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_ads_library_initialized&MUID=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&MUIDV2=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&owver=31.7.9&Extra=%7B%22app_ver%22%3A%221.275.1.24561%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%7D. Status code: 200.
+[2025-04-13 19:22:16.635] [info]  [EleriumCommunicationLayer] Request - GET v1/shared-profile/0rVBRqhW/metadata - params: None.
+[2025-04-13 19:22:17.569] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_user_action&MUID=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&MUIDV2=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&owver=31.7.9&Extra=%7B%22app_ver%22%3A%221.275.1.24561%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22action%22%3A%22shareModpack%22%2C%22currentAppPage%22%3A%22MyModsPage%22%2C%22value%22%3A%22importModpackWithCode%22%2C%22gameId%22%3A%22432%22%7D.
+[2025-04-13 19:22:17.589] [info]  [OperationStartedEventHandler] Operation Started, Id: 0rVBRqhW.
+[2025-04-13 19:22:17.594] [info]  [ElectronIOServiceImpl] Getting folder: 0.
+[2025-04-13 19:22:17.734] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_user_action&MUID=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&MUIDV2=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&owver=31.7.9&Extra=%7B%22app_ver%22%3A%221.275.1.24561%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22action%22%3A%22shareModpack%22%2C%22currentAppPage%22%3A%22MyModsPage%22%2C%22value%22%3A%22importModpackWithCode%22%2C%22gameId%22%3A%22432%22%7D. Status code: 200.
+[2025-04-13 19:22:18.158] [info]  [OperationCompletedEventHandler] Operation Completed, Id: 0rVBRqhW.
+[2025-04-13 19:22:18.767] [info]  [GameInstanceDetectedEventHandler] Instance detected: Client-Side Mods (no flavor) - e9442e5c-f1a2-4f53-a55c-f1e88e04c7bc (/home/eric/Documents/curseforge/minecraft/Instances/Client-Side Mods/).
+[2025-04-13 19:22:18.778] [info]  [GameInstanceChangedEventHandler] Game instance changed: e9442e5c-f1a2-4f53-a55c-f1e88e04c7bc - ["AddedToDatabase"].
+[2025-04-13 19:22:23.108] [info]  [GameInstanceChangedEventHandler] Game instance changed: e9442e5c-f1a2-4f53-a55c-f1e88e04c7bc - ["Saved"].
+[2025-04-13 19:22:23.117] [info]  [GameInstanceChangedEventHandler] Game instance changed: e9442e5c-f1a2-4f53-a55c-f1e88e04c7bc - ["Saved"].
+[2025-04-13 19:22:23.139] [info]  [MinecraftInstanceTaskCompletedEventHandler] Minecraft instance task completed.
+[2025-04-13 19:22:23.986] [info]  [GameInstanceChangedEventHandler] Game instance changed: e9442e5c-f1a2-4f53-a55c-f1e88e04c7bc - ["Saved"].
+[2025-04-13 19:22:25.032] [info]  [ProjectInstanceChangedEventHandler] Project instance 306612 - Fabric API changed.
+[2025-04-13 19:22:25.035] [info]  [ProjectInstanceChangedEventHandler] Project instance 306612 - Fabric API changed.
+[2025-04-13 19:22:25.045] [info]  [ProjectInstalledEventHandler] Project 306612 - Fabric API installed to Client-Side Mods instance.
+[2025-04-13 19:22:25.147] [info]  [GameInstanceChangedEventHandler] Game instance changed: e9442e5c-f1a2-4f53-a55c-f1e88e04c7bc - ["Saved"].
+[2025-04-13 19:22:25.521] [info]  [ProjectInstanceChangedEventHandler] Project instance 308702 - Mod Menu changed.
+[2025-04-13 19:22:25.526] [info]  [ProjectInstanceChangedEventHandler] Project instance 308702 - Mod Menu changed.
+[2025-04-13 19:22:25.534] [info]  [ProjectInstalledEventHandler] Project 308702 - Mod Menu installed to Client-Side Mods instance.
+[2025-04-13 19:22:26.272] [info]  [ProjectInstanceChangedEventHandler] Project instance 308769 - Fabric Language Kotlin changed.
+[2025-04-13 19:22:26.295] [info]  [ProjectInstanceChangedEventHandler] Project instance 308769 - Fabric Language Kotlin changed.
+[2025-04-13 19:22:26.310] [info]  [ProjectInstalledEventHandler] Project 308769 - Fabric Language Kotlin installed to Client-Side Mods instance.
+[2025-04-13 19:22:26.802] [info]  [ProjectInstanceChangedEventHandler] Project instance 250398 - Controlling changed.
+[2025-04-13 19:22:26.802] [info]  [ProjectInstanceChangedEventHandler] Project instance 250398 - Controlling changed.
+[2025-04-13 19:22:26.803] [info]  [ProjectInstalledEventHandler] Project 250398 - Controlling installed to Client-Side Mods instance.
+[2025-04-13 19:22:27.466] [info]  [ProjectInstanceChangedEventHandler] Project instance 492295 - Gamma Utils (Fullbright) changed.
+[2025-04-13 19:22:27.468] [info]  [ProjectInstanceChangedEventHandler] Project instance 492295 - Gamma Utils (Fullbright) changed.
+[2025-04-13 19:22:27.469] [info]  [ProjectInstalledEventHandler] Project 492295 - Gamma Utils (Fullbright) installed to Client-Side Mods instance.
+[2025-04-13 19:22:28.094] [info]  [ProjectInstanceChangedEventHandler] Project instance 910095 - Dynamic Lights [Server] [Forge/Fabric/Quilt] changed.
+[2025-04-13 19:22:28.099] [info]  [ProjectInstanceChangedEventHandler] Project instance 910095 - Dynamic Lights [Server] [Forge/Fabric/Quilt] changed.
+[2025-04-13 19:22:28.101] [info]  [ProjectInstalledEventHandler] Project 910095 - Dynamic Lights [Server] [Forge/Fabric/Quilt] installed to Client-Side Mods instance.
+[2025-04-13 19:22:29.246] [info]  [ProjectInstanceChangedEventHandler] Project instance 508933 - Distant Horizons: A Level of Detail mod changed.
+[2025-04-13 19:22:29.248] [info]  [ProjectInstanceChangedEventHandler] Project instance 508933 - Distant Horizons: A Level of Detail mod changed.
+[2025-04-13 19:22:29.249] [info]  [ProjectInstalledEventHandler] Project 508933 - Distant Horizons: A Level of Detail mod installed to Client-Side Mods instance.
+[2025-04-13 19:22:29.846] [info]  [ProjectInstanceChangedEventHandler] Project instance 297344 - Tweakeroo changed.
+[2025-04-13 19:22:29.847] [info]  [ProjectInstanceChangedEventHandler] Project instance 297344 - Tweakeroo changed.
+[2025-04-13 19:22:29.848] [info]  [ProjectInstalledEventHandler] Project 297344 - Tweakeroo installed to Client-Side Mods instance.
+[2025-04-13 19:22:30.332] [info]  [ProjectInstanceChangedEventHandler] Project instance 858542 - Searchables changed.
+[2025-04-13 19:22:30.333] [info]  [ProjectInstanceChangedEventHandler] Project instance 858542 - Searchables changed.
+[2025-04-13 19:22:30.333] [info]  [ProjectInstalledEventHandler] Project 858542 - Searchables installed to Client-Side Mods instance.
+[2025-04-13 19:22:30.804] [info]  [ProjectInstanceChangedEventHandler] Project instance 431203 - MakeUp - Ultra Fast | Shaders changed.
+[2025-04-13 19:22:30.816] [info]  [ProjectInstanceChangedEventHandler] Project instance 431203 - MakeUp - Ultra Fast | Shaders changed.
+[2025-04-13 19:22:30.824] [info]  [ProjectInstalledEventHandler] Project 431203 - MakeUp - Ultra Fast | Shaders installed to Client-Side Mods instance.
+[2025-04-13 19:22:31.460] [info]  [ProjectInstanceChangedEventHandler] Project instance 455508 - Iris Shaders changed.
+[2025-04-13 19:22:31.462] [info]  [ProjectInstalledEventHandler] Project 455508 - Iris Shaders installed to Client-Side Mods instance.
+[2025-04-13 19:22:31.464] [info]  [ProjectInstanceChangedEventHandler] Project instance 455508 - Iris Shaders changed.
+[2025-04-13 19:22:32.034] [info]  [ProjectInstanceChangedEventHandler] Project instance 574741 - Zoomify changed.
+[2025-04-13 19:22:32.039] [info]  [ProjectInstalledEventHandler] Project 574741 - Zoomify installed to Client-Side Mods instance.
+[2025-04-13 19:22:32.040] [info]  [ProjectInstanceChangedEventHandler] Project instance 574741 - Zoomify changed.
+[2025-04-13 19:22:32.600] [info]  [ProjectInstanceChangedEventHandler] Project instance 349240 - Carpet Extra changed.
+[2025-04-13 19:22:32.602] [info]  [ProjectInstanceChangedEventHandler] Project instance 349240 - Carpet Extra changed.
+[2025-04-13 19:22:32.604] [info]  [ProjectInstanceChangedEventHandler] Project instance 349240 - Carpet Extra changed.
+[2025-04-13 19:22:32.608] [info]  [ProjectInstalledEventHandler] Project 349240 - Carpet Extra installed to Client-Side Mods instance.
+[2025-04-13 19:22:33.125] [info]  [ProjectInstanceChangedEventHandler] Project instance 385587 - Complementary Shaders - Unbound changed.
+[2025-04-13 19:22:33.132] [info]  [ProjectInstanceChangedEventHandler] Project instance 385587 - Complementary Shaders - Unbound changed.
+[2025-04-13 19:22:33.134] [info]  [ProjectInstalledEventHandler] Project 385587 - Complementary Shaders - Unbound installed to Client-Side Mods instance.
+[2025-04-13 19:22:33.692] [info]  [ProjectInstanceChangedEventHandler] Project instance 349239 - Carpet changed.
+[2025-04-13 19:22:33.696] [info]  [ProjectInstanceChangedEventHandler] Project instance 349239 - Carpet changed.
+[2025-04-13 19:22:33.697] [info]  [ProjectInstanceChangedEventHandler] Project instance 349239 - Carpet changed.
+[2025-04-13 19:22:33.697] [info]  [ProjectInstalledEventHandler] Project 349239 - Carpet installed to Client-Side Mods instance.
+[2025-04-13 19:22:34.071] [info]  [ProjectInstanceChangedEventHandler] Project instance 676136 - Model Gap Fix changed.
+[2025-04-13 19:22:34.074] [info]  [ProjectInstanceChangedEventHandler] Project instance 676136 - Model Gap Fix changed.
+[2025-04-13 19:22:34.079] [info]  [ProjectInstalledEventHandler] Project 676136 - Model Gap Fix installed to Client-Side Mods instance.
+[2025-04-13 19:22:34.698] [info]  [ProjectInstanceChangedEventHandler] Project instance 348521 - Cloth Config API (Fabric/Forge/NeoForge) changed.
+[2025-04-13 19:22:34.700] [info]  [ProjectInstanceChangedEventHandler] Project instance 348521 - Cloth Config API (Fabric/Forge/NeoForge) changed.
+[2025-04-13 19:22:34.700] [info]  [ProjectInstalledEventHandler] Project 348521 - Cloth Config API (Fabric/Forge/NeoForge) installed to Client-Side Mods instance.
+[2025-04-13 19:22:35.217] [info]  [ProjectInstanceChangedEventHandler] Project instance 419699 - Architectury API changed.
+[2025-04-13 19:22:35.218] [info]  [ProjectInstalledEventHandler] Project 419699 - Architectury API installed to Client-Side Mods instance.
+[2025-04-13 19:22:35.220] [info]  [ProjectInstanceChangedEventHandler] Project instance 419699 - Architectury API changed.
+[2025-04-13 19:22:35.632] [info]  [ProjectInstanceChangedEventHandler] Project instance 459496 - Indium changed.
+[2025-04-13 19:22:35.637] [info]  [ProjectInstanceChangedEventHandler] Project instance 459496 - Indium changed.
+[2025-04-13 19:22:35.643] [info]  [ProjectInstalledEventHandler] Project 459496 - Indium installed to Client-Side Mods instance.
+[2025-04-13 19:22:36.132] [info]  [ProjectInstanceChangedEventHandler] Project instance 315811 - Shulker Box Tooltip [Fabric/Forge/NeoForge] changed.
+[2025-04-13 19:22:36.134] [info]  [ProjectInstanceChangedEventHandler] Project instance 315811 - Shulker Box Tooltip [Fabric/Forge/NeoForge] changed.
+[2025-04-13 19:22:36.139] [info]  [ProjectInstalledEventHandler] Project 315811 - Shulker Box Tooltip [Fabric/Forge/NeoForge] installed to Client-Side Mods instance.
+[2025-04-13 19:22:36.747] [info]  [ProjectInstanceChangedEventHandler] Project instance 248787 - AppleSkin changed.
+[2025-04-13 19:22:36.754] [info]  [ProjectInstanceChangedEventHandler] Project instance 248787 - AppleSkin changed.
+[2025-04-13 19:22:36.756] [info]  [ProjectInstalledEventHandler] Project 248787 - AppleSkin installed to Client-Side Mods instance.
+[2025-04-13 19:22:37.817] [info]  [ProjectInstanceChangedEventHandler] Project instance 557076 - Freecam changed.
+[2025-04-13 19:22:37.820] [info]  [ProjectInstalledEventHandler] Project 557076 - Freecam installed to Client-Side Mods instance.
+[2025-04-13 19:22:37.822] [info]  [ProjectInstanceChangedEventHandler] Project instance 557076 - Freecam changed.
+[2025-04-13 19:22:38.522] [info]  [ProjectInstanceChangedEventHandler] Project instance 1037459 - Text Placeholder API changed.
+[2025-04-13 19:22:38.523] [info]  [ProjectInstanceChangedEventHandler] Project instance 1037459 - Text Placeholder API changed.
+[2025-04-13 19:22:38.523] [info]  [ProjectInstalledEventHandler] Project 1037459 - Text Placeholder API installed to Client-Side Mods instance.
+[2025-04-13 19:22:39.091] [info]  [ProjectInstanceChangedEventHandler] Project instance 303119 - MaLiLib changed.
+[2025-04-13 19:22:39.092] [info]  [ProjectInstalledEventHandler] Project 303119 - MaLiLib installed to Client-Side Mods instance.
+[2025-04-13 19:22:39.094] [info]  [ProjectInstanceChangedEventHandler] Project instance 303119 - MaLiLib changed.
+[2025-04-13 19:22:39.545] [info]  [ProjectInstalledEventHandler] Project 544096 - Sildur's Vibrant shaders installed to Client-Side Mods instance.
+[2025-04-13 19:22:39.546] [info]  [ProjectInstanceChangedEventHandler] Project instance 544096 - Sildur's Vibrant shaders changed.
+[2025-04-13 19:22:39.547] [info]  [ProjectInstanceChangedEventHandler] Project instance 544096 - Sildur's Vibrant shaders changed.
+[2025-04-13 19:22:40.095] [info]  [ProjectInstanceChangedEventHandler] Project instance 242064 - Item Scroller changed.
+[2025-04-13 19:22:40.099] [info]  [ProjectInstalledEventHandler] Project 242064 - Item Scroller installed to Client-Side Mods instance.
+[2025-04-13 19:22:40.099] [info]  [ProjectInstanceChangedEventHandler] Project instance 242064 - Item Scroller changed.
+[2025-04-13 19:22:40.545] [info]  [ProjectInstanceChangedEventHandler] Project instance 325492 - Light Overlay (Rift/Forge/Fabric) changed.
+[2025-04-13 19:22:40.547] [info]  [ProjectInstanceChangedEventHandler] Project instance 325492 - Light Overlay (Rift/Forge/Fabric) changed.
+[2025-04-13 19:22:40.551] [info]  [ProjectInstalledEventHandler] Project 325492 - Light Overlay (Rift/Forge/Fabric) installed to Client-Side Mods instance.
+[2025-04-13 19:22:41.162] [info]  [ProjectInstanceChangedEventHandler] Project instance 308892 - Litematica changed.
+[2025-04-13 19:22:41.168] [info]  [ProjectInstanceChangedEventHandler] Project instance 308892 - Litematica changed.
+[2025-04-13 19:22:41.174] [info]  [ProjectInstalledEventHandler] Project 308892 - Litematica installed to Client-Side Mods instance.
+[2025-04-13 19:22:41.724] [info]  [ProjectInstanceChangedEventHandler] Project instance 661892 - Better Command Block UI changed.
+[2025-04-13 19:22:41.726] [info]  [ProjectInstanceChangedEventHandler] Project instance 661892 - Better Command Block UI changed.
+[2025-04-13 19:22:41.727] [info]  [ProjectInstalledEventHandler] Project 661892 - Better Command Block UI installed to Client-Side Mods instance.
+[2025-04-13 19:22:43.108] [info]  [ProjectInstanceChangedEventHandler] Project instance 667299 - YetAnotherConfigLib changed.
+[2025-04-13 19:22:43.109] [info]  [ProjectInstanceChangedEventHandler] Project instance 667299 - YetAnotherConfigLib changed.
+[2025-04-13 19:22:43.114] [info]  [ProjectInstalledEventHandler] Project 667299 - YetAnotherConfigLib installed to Client-Side Mods instance.
+[2025-04-13 19:22:44.004] [info]  [ProjectInstanceChangedEventHandler] Project instance 394468 - Sodium changed.
+[2025-04-13 19:22:44.006] [info]  [ProjectInstalledEventHandler] Project 394468 - Sodium installed to Client-Side Mods instance.
+[2025-04-13 19:22:44.007] [info]  [ProjectInstanceChangedEventHandler] Project instance 394468 - Sodium changed.
+[2025-04-13 19:22:44.584] [info]  [ProjectInstanceChangedEventHandler] Project instance 322506 - BSL Shaders changed.
+[2025-04-13 19:22:44.591] [info]  [ProjectInstanceChangedEventHandler] Project instance 322506 - BSL Shaders changed.
+[2025-04-13 19:22:44.593] [info]  [ProjectInstalledEventHandler] Project 322506 - BSL Shaders installed to Client-Side Mods instance.
+[2025-04-13 19:22:44.753] [info]  [UptimeRobotApi] Executing GET request https://health.curseforge.com/app/monitorStatus.json.
+[2025-04-13 19:22:44.898] [info]  [UptimeRobotApi] Executed GET request https://health.curseforge.com/app/monitorStatus.json. Status code: 200.
+[2025-04-13 19:22:45.149] [info]  [ProjectInstanceChangedEventHandler] Project instance 531351 - Continuity changed.
+[2025-04-13 19:22:45.151] [info]  [ProjectInstanceChangedEventHandler] Project instance 531351 - Continuity changed.
+[2025-04-13 19:22:45.153] [info]  [ProjectInstalledEventHandler] Project 531351 - Continuity installed to Client-Side Mods instance.
+[2025-04-13 19:22:45.596] [info]  [ProjectInstanceChangedEventHandler] Project instance 511319 - Reese's Sodium Options changed.
+[2025-04-13 19:22:45.596] [info]  [ProjectInstalledEventHandler] Project 511319 - Reese's Sodium Options installed to Client-Side Mods instance.
+[2025-04-13 19:22:45.598] [info]  [ProjectInstanceChangedEventHandler] Project instance 511319 - Reese's Sodium Options changed.
+[2025-04-13 19:22:46.148] [info]  [ProjectInstanceChangedEventHandler] Project instance 360438 - Lithium (Fabric/NeoForge) changed.
+[2025-04-13 19:22:46.152] [info]  [ProjectInstalledEventHandler] Project 360438 - Lithium (Fabric/NeoForge) installed to Client-Side Mods instance.
+[2025-04-13 19:22:46.153] [info]  [ProjectInstanceChangedEventHandler] Project instance 360438 - Lithium (Fabric/NeoForge) changed.
+[2025-04-13 19:22:46.716] [info]  [ProjectInstanceChangedEventHandler] Project instance 244260 - MiniHUD changed.
+[2025-04-13 19:22:46.717] [info]  [ProjectInstanceChangedEventHandler] Project instance 244260 - MiniHUD changed.
+[2025-04-13 19:22:46.718] [info]  [ProjectInstalledEventHandler] Project 244260 - MiniHUD installed to Client-Side Mods instance.
+[2025-04-13 19:22:47.031] [info]  [GameInstanceChangedEventHandler] Game instance changed: e9442e5c-f1a2-4f53-a55c-f1e88e04c7bc - ["Saved"].
+[2025-04-13 19:22:47.208] [info]  [GameInstanceChangedEventHandler] Game instance changed: e9442e5c-f1a2-4f53-a55c-f1e88e04c7bc - ["Saved"].
+[2025-04-13 19:22:47.212] [info]  [MinecraftInstanceTaskCompletedEventHandler] Minecraft instance task completed.
+[2025-04-13 19:23:32.060] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_launch_modpack_requested&MUID=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&MUIDV2=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&owver=31.7.9&Extra=%7B%22app_ver%22%3A%221.275.1.24561%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22launchMethod%22%3A0%2C%22gameId%22%3A432%2C%22terminateRunningProcess%22%3Afalse%2C%22gameDashboardEnabled%22%3Afalse%7D.
+[2025-04-13 19:23:32.062] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_user_action&MUID=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&MUIDV2=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&owver=31.7.9&Extra=%7B%22app_ver%22%3A%221.275.1.24561%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22action%22%3A%22launchFromShortcutRequested%22%2C%22currentAppPage%22%3A%22MyModsPage%22%2C%22value%22%3A%22Client-Side+Mods%22%2C%22gameId%22%3A%22NaN%22%7D.
+[2025-04-13 19:23:32.066] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_user_action&MUID=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&MUIDV2=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&owver=31.7.9&Extra=%7B%22app_ver%22%3A%221.275.1.24561%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22action%22%3A%22launchFromShortcutRequested%22%2C%22currentAppPage%22%3A%22MyModsPage%22%2C%22value%22%3A%22Client-Side+Mods%22%2C%22gameId%22%3A%22432%22%7D.
+[2025-04-13 19:23:32.190] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_launch_modpack_requested&MUID=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&MUIDV2=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&owver=31.7.9&Extra=%7B%22app_ver%22%3A%221.275.1.24561%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22launchMethod%22%3A0%2C%22gameId%22%3A432%2C%22terminateRunningProcess%22%3Afalse%2C%22gameDashboardEnabled%22%3Afalse%7D. Status code: 200.
+[2025-04-13 19:23:32.203] [info]  [MojangLauncher] Launching modpack using the Mojang Launcher. Id: e9442e5c-f1a2-4f53-a55c-f1e88e04c7bc, Launcher Args: [object Object].
+[2025-04-13 19:23:32.208] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_user_action&MUID=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&MUIDV2=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&owver=31.7.9&Extra=%7B%22app_ver%22%3A%221.275.1.24561%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22action%22%3A%22launchFromShortcutRequested%22%2C%22currentAppPage%22%3A%22MyModsPage%22%2C%22value%22%3A%22Client-Side+Mods%22%2C%22gameId%22%3A%22NaN%22%7D. Status code: 200.
+[2025-04-13 19:23:32.216] [info]  [LauncherApi] Executing GET request https://launchermeta.mojang.com/mc/game/version_manifest.json.
+[2025-04-13 19:23:32.229] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_user_action&MUID=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&MUIDV2=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&owver=31.7.9&Extra=%7B%22app_ver%22%3A%221.275.1.24561%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22action%22%3A%22launchFromShortcutRequested%22%2C%22currentAppPage%22%3A%22MyModsPage%22%2C%22value%22%3A%22Client-Side+Mods%22%2C%22gameId%22%3A%22432%22%7D. Status code: 200.
+[2025-04-13 19:23:32.478] [info]  [LauncherApi] Executed GET request https://launchermeta.mojang.com/mc/game/version_manifest.json. Status code: 200.
+[2025-04-13 19:23:33.147] [info]  [GameInstanceChangedEventHandler] Game instance changed: e9442e5c-f1a2-4f53-a55c-f1e88e04c7bc - ["Saved"].
+[2025-04-13 19:23:33.498] [info]  [GameInstanceChangedEventHandler] Game instance changed: e9442e5c-f1a2-4f53-a55c-f1e88e04c7bc - ["Saved"].
+[2025-04-13 19:23:35.012] [info]  [MinecraftInstanceTaskCompletedEventHandler] Minecraft instance task completed.
+[2025-04-13 19:23:45.490] [info]  [PluginProcessHost] Agent stdout: OK.
+[2025-04-13 19:23:47.098] [error] [PluginProcessHost] Agent stderr: sh: line 1: orca: command not found
+.
+[2025-04-13 19:23:47.220] [error] [PluginProcessHost] Agent stderr: Created browser window for reuse: 0x4200004
+.
+[2025-04-13 19:23:47.689] [error] [PluginProcessHost] Agent stderr: terminate called after throwing an instance of 'std::bad_function_call'
+.
+[2025-04-13 19:23:47.690] [error] [PluginProcessHost] Agent stderr:   what():  bad_function_call
+.
+[2025-04-13 19:23:51.433] [error] [PluginProcessHost] Agent stderr: terminate called after throwing an instance of 'std::bad_function_call'
+  what():  bad_function_call
+.
+[2025-04-13 19:23:51.446] [error] [PluginProcessHost] Agent stderr: terminate called after throwing an instance of '.
+[2025-04-13 19:23:51.453] [error] [PluginProcessHost] Agent stderr: std::bad_function_call'
+  what():  bad_function_call
+.
+[2025-04-13 19:23:51.564] [error] [PluginProcessHost] Agent stderr: terminate called after throwing an instance of 'std::bad_function_call'
+  what():  bad_function_call
+.
+[2025-04-13 19:23:51.678] [error] [PluginProcessHost] Agent stderr: terminate called after throwing an instance of 'std::bad_function_call'
+  what():  bad_function_call
+.
+[2025-04-13 19:24:06.672] [error] [PluginProcessHost] Agent stderr: [17724:17724:0413/192406.671644:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 1 times!
+.
+[2025-04-13 19:24:08.005] [error] [PluginProcessHost] Agent stderr: Created browser window for reuse: 0x4200016
+.
+[2025-04-13 19:24:08.093] [error] [PluginProcessHost] Agent stderr: [17724:17724:0413/192408.091959:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 2 times!
+.
+[2025-04-13 19:24:11.203] [error] [PluginProcessHost] Agent stderr: [17724:17724:0413/192411.198216:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 3 times!
+.
+[2025-04-13 19:24:28.052] [error] [PluginProcessHost] Agent stderr: Created browser window for reuse: 0x4200018
+.
+[2025-04-13 19:24:48.704] [error] [PluginProcessHost] Agent stderr: terminate called after throwing an instance of 'std::bad_function_call'
+  what():  bad_function_call
+.
+[2025-04-13 19:24:50.116] [error] [PluginProcessHost] Agent stderr: terminate called after throwing an instance of '.
+[2025-04-13 19:24:50.118] [error] [PluginProcessHost] Agent stderr: std::bad_function_call'
+  what():  bad_function_call
+.
+[2025-04-13 19:24:52.085] [error] [PluginProcessHost] Agent stderr: terminate called after throwing an instance of 'std::bad_function_call'
+  what():  bad_function_call
+.
+[2025-04-13 19:24:54.199] [error] [PluginProcessHost] Agent stderr: terminate called after throwing an instance of 'std::bad_function_call'
+  what():  bad_function_call
+.
+[2025-04-13 19:24:56.372] [error] [PluginProcessHost] Agent stderr: terminate called after throwing an instance of '.
+[2025-04-13 19:24:56.375] [error] [PluginProcessHost] Agent stderr: std::bad_function_call'
+  what():  bad_function_call
+.
+[2025-04-13 19:24:58.630] [error] [PluginProcessHost] Agent stderr: terminate called after throwing an instance of 'std::bad_function_call'
+  what():  bad_function_call
+.
+[2025-04-13 19:25:01.000] [error] [PluginProcessHost] Agent stderr: terminate called after throwing an instance of '.
+[2025-04-13 19:25:01.003] [error] [PluginProcessHost] Agent stderr: std::bad_function_call'
+  what():  bad_function_call
+.
+[2025-04-13 19:25:03.534] [error] [PluginProcessHost] Agent stderr: terminate called after throwing an instance of '.
+[2025-04-13 19:25:03.535] [error] [PluginProcessHost] Agent stderr: std::bad_function_call'
+  what():  bad_function_call
+.
+[2025-04-13 19:25:06.150] [error] [PluginProcessHost] Agent stderr: terminate called after throwing an instance of 'std::bad_function_call'
+  what():  bad_function_call
+.
+[2025-04-13 19:25:08.883] [error] [PluginProcessHost] Agent stderr: terminate called after throwing an instance of 'std::bad_function_call'
+  what():  bad_function_call
+.
+[2025-04-13 19:25:11.837] [error] [PluginProcessHost] Agent stderr: terminate called after throwing an instance of 'std::bad_function_call'
+  what():  bad_function_call
+.
+[2025-04-13 19:25:14.852] [error] [PluginProcessHost] Agent stderr: terminate called after throwing an instance of 'std::bad_function_call'
+  what():  bad_function_call
+.
+[2025-04-13 19:25:17.933] [error] [PluginProcessHost] Agent stderr: terminate called after throwing an instance of 'std::bad_function_call'
+  what():  bad_function_call
+.
+[2025-04-13 19:25:21.239] [error] [PluginProcessHost] Agent stderr: terminate called after throwing an instance of 'std::bad_function_call'
+  what():  bad_function_call
+.
+[2025-04-13 19:25:24.712] [error] [PluginProcessHost] Agent stderr: terminate called after throwing an instance of 'std::bad_function_call'
+  what():  bad_function_call
+.
+[2025-04-13 19:25:28.278] [error] [PluginProcessHost] Agent stderr: terminate called after throwing an instance of 'std::bad_function_call'
+  what():  bad_function_call
+.
+[2025-04-13 19:25:31.909] [error] [PluginProcessHost] Agent stderr: terminate called after throwing an instance of 'std::bad_function_call'
+  what():  bad_function_call
+.
+[2025-04-13 19:25:35.730] [error] [PluginProcessHost] Agent stderr: terminate called after throwing an instance of 'std::bad_function_call'
+.
+[2025-04-13 19:25:35.731] [error] [PluginProcessHost] Agent stderr:   what():  bad_function_call
+.
+[2025-04-13 19:25:39.645] [error] [PluginProcessHost] Agent stderr: terminate called after throwing an instance of 'std::bad_function_call'
+  what():  bad_function_call
+.
+[2025-04-13 19:26:26.351] [error] [PluginProcessHost] Agent stderr: Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.compiler/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.compiler/ASSEMBLY_EXCEPTION
+.
+[2025-04-13 19:26:26.353] [error] [PluginProcessHost] Agent stderr: Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.compiler/LICENSE
+.
+[2025-04-13 19:26:26.358] [error] [PluginProcessHost] Agent stderr: Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.datatransfer/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.datatransfer/ASSEMBLY_EXCEPTION
+.
+[2025-04-13 19:26:26.362] [error] [PluginProcessHost] Agent stderr: Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.datatransfer/LICENSE
+.
+[2025-04-13 19:26:26.370] [error] [PluginProcessHost] Agent stderr: Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.desktop/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.desktop/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.desktop/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.instrument/ADDITIONAL_LICENSE_INFO
+.
+[2025-04-13 19:26:26.387] [error] [PluginProcessHost] Agent stderr: Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.instrument/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.instrument/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.logging/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.logging/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.logging/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.management/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.management/ASSEMBLY_EXCEPTION
+.
+[2025-04-13 19:26:26.397] [error] [PluginProcessHost] Agent stderr: Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.management/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.management.rmi/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.management.rmi/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.management.rmi/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.naming/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.naming/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.naming/LICENSE
+.
+[2025-04-13 19:26:26.423] [error] [PluginProcessHost] Agent stderr: Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.net.http/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.net.http/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.net.http/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.prefs/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.prefs/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.prefs/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.rmi/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.rmi/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.rmi/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.scripting/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.scripting/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.scripting/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.se/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.se/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.se/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.security.jgss/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.security.jgss/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.security.jgss/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.security.sasl/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.security.sasl/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.security.sasl/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.smartcardio/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.smartcardio/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.smartcardio/LICENSE
+.
+[2025-04-13 19:26:26.441] [error] [PluginProcessHost] Agent stderr: Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.sql/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.sql/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.sql/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.sql.rowset/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.sql.rowset/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.sql.rowset/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.transaction.xa/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.transaction.xa/ASSEMBLY_EXCEPTION
+.
+[2025-04-13 19:26:26.451] [error] [PluginProcessHost] Agent stderr: Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.transaction.xa/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.xml/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.xml/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.xml/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.xml.crypto/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.xml.crypto/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/java.xml.crypto/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.accessibility/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.accessibility/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.accessibility/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.attach/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.attach/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.attach/LICENSE
+.
+[2025-04-13 19:26:26.458] [error] [PluginProcessHost] Agent stderr: Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.charsets/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.charsets/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.charsets/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.compiler/ADDITIONAL_LICENSE_INFO
+.
+[2025-04-13 19:26:26.469] [error] [PluginProcessHost] Agent stderr: Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.compiler/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.compiler/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.crypto.cryptoki/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.crypto.cryptoki/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.crypto.cryptoki/LICENSE
+.
+[2025-04-13 19:26:26.474] [error] [PluginProcessHost] Agent stderr: Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.crypto.ec/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.crypto.ec/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.crypto.ec/LICENSE
+.
+[2025-04-13 19:26:26.479] [error] [PluginProcessHost] Agent stderr: Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.dynalink/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.dynalink/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.dynalink/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.editpad/ADDITIONAL_LICENSE_INFO
+.
+[2025-04-13 19:26:26.485] [error] [PluginProcessHost] Agent stderr: Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.editpad/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.editpad/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.hotspot.agent/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.hotspot.agent/ASSEMBLY_EXCEPTION
+.
+[2025-04-13 19:26:26.492] [error] [PluginProcessHost] Agent stderr: Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.hotspot.agent/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.httpserver/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.httpserver/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.httpserver/LICENSE
+.
+[2025-04-13 19:26:26.495] [error] [PluginProcessHost] Agent stderr: Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.incubator.vector/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.incubator.vector/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.incubator.vector/LICENSE
+.
+[2025-04-13 19:26:26.500] [error] [PluginProcessHost] Agent stderr: Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.internal.ed/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.internal.ed/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.internal.ed/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.internal.jvmstat/ADDITIONAL_LICENSE_INFO
+.
+[2025-04-13 19:26:26.504] [error] [PluginProcessHost] Agent stderr: Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.internal.jvmstat/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.internal.jvmstat/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.internal.le/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.internal.le/ASSEMBLY_EXCEPTION
+.
+[2025-04-13 19:26:26.517] [error] [PluginProcessHost] Agent stderr: Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.internal.le/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.internal.opt/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.internal.opt/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.internal.opt/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.internal.vm.ci/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.internal.vm.ci/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.internal.vm.ci/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.internal.vm.compiler/ADDITIONAL_LICENSE_INFO
+.
+[2025-04-13 19:26:26.522] [error] [PluginProcessHost] Agent stderr: Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.internal.vm.compiler/ASSEMBLY_EXCEPTION
+.
+[2025-04-13 19:26:26.528] [error] [PluginProcessHost] Agent stderr: Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.internal.vm.compiler/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.internal.vm.compiler.management/ADDITIONAL_LICENSE_INFO
+.
+[2025-04-13 19:26:26.533] [error] [PluginProcessHost] Agent stderr: Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.internal.vm.compiler.management/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.internal.vm.compiler.management/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.jartool/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.jartool/ASSEMBLY_EXCEPTION
+.
+[2025-04-13 19:26:26.537] [error] [PluginProcessHost] Agent stderr: Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.jartool/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.javadoc/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.javadoc/ASSEMBLY_EXCEPTION
+.
+[2025-04-13 19:26:26.544] [error] [PluginProcessHost] Agent stderr: Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.javadoc/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.jcmd/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.jcmd/ASSEMBLY_EXCEPTION
+.
+[2025-04-13 19:26:26.552] [error] [PluginProcessHost] Agent stderr: Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.jcmd/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.jconsole/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.jconsole/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.jconsole/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.jdeps/ADDITIONAL_LICENSE_INFO
+.
+[2025-04-13 19:26:26.557] [error] [PluginProcessHost] Agent stderr: Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.jdeps/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.jdeps/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.jdi/ADDITIONAL_LICENSE_INFO
+.
+[2025-04-13 19:26:26.560] [error] [PluginProcessHost] Agent stderr: Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.jdi/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.jdi/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.jdwp.agent/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.jdwp.agent/ASSEMBLY_EXCEPTION
+.
+[2025-04-13 19:26:26.564] [error] [PluginProcessHost] Agent stderr: Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.jdwp.agent/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.jfr/ADDITIONAL_LICENSE_INFO
+.
+[2025-04-13 19:26:26.568] [error] [PluginProcessHost] Agent stderr: Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.jfr/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.jfr/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.jlink/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.jlink/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.jlink/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.jpackage/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.jpackage/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.jpackage/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.jshell/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.jshell/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.jshell/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.jsobject/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.jsobject/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.jsobject/LICENSE
+.
+[2025-04-13 19:26:26.574] [error] [PluginProcessHost] Agent stderr: Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.jstatd/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.jstatd/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.jstatd/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.localedata/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.localedata/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.localedata/LICENSE
+Symlink ../java.base/cldr.md : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.localedata/cldr.md
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.management/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.management/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.management/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.management.agent/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.management.agent/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.management.agent/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.management.jfr/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.management.jfr/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.management.jfr/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.naming.dns/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.naming.dns/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.naming.dns/LICENSE
+.
+[2025-04-13 19:26:26.576] [error] [PluginProcessHost] Agent stderr: Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.naming.rmi/ADDITIONAL_LICENSE_INFO
+.
+[2025-04-13 19:26:26.580] [error] [PluginProcessHost] Agent stderr: Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.naming.rmi/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.naming.rmi/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.net/ADDITIONAL_LICENSE_INFO
+.
+[2025-04-13 19:26:26.583] [error] [PluginProcessHost] Agent stderr: Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.net/ASSEMBLY_EXCEPTION
+.
+[2025-04-13 19:26:26.589] [error] [PluginProcessHost] Agent stderr: Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.net/LICENSE
+.
+[2025-04-13 19:26:26.623] [error] [PluginProcessHost] Agent stderr: Symlink .
+[2025-04-13 19:26:26.623] [error] [PluginProcessHost] Agent stderr: ../java.base/ADDITIONAL_LICENSE_INFO.
+[2025-04-13 19:26:26.624] [error] [PluginProcessHost] Agent stderr:  : .
+[2025-04-13 19:26:26.624] [error] [PluginProcessHost] Agent stderr: /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.nio.mapmode/ADDITIONAL_LICENSE_INFO.
+[2025-04-13 19:26:26.625] [error] [PluginProcessHost] Agent stderr: 
+.
+[2025-04-13 19:26:26.626] [error] [PluginProcessHost] Agent stderr: Symlink .
+[2025-04-13 19:26:26.627] [error] [PluginProcessHost] Agent stderr: ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.nio.mapmode/ASSEMBLY_EXCEPTION
+.
+[2025-04-13 19:26:26.639] [error] [PluginProcessHost] Agent stderr: Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.nio.mapmode/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.random/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.random/ASSEMBLY_EXCEPTION
+.
+[2025-04-13 19:26:26.642] [error] [PluginProcessHost] Agent stderr: Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.random/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.sctp/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.sctp/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.sctp/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.security.auth/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.security.auth/ASSEMBLY_EXCEPTION
+.
+[2025-04-13 19:26:26.646] [error] [PluginProcessHost] Agent stderr: Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.security.auth/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.security.jgss/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.security.jgss/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.security.jgss/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.unsupported/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.unsupported/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.unsupported/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.unsupported.desktop/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.unsupported.desktop/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.unsupported.desktop/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.xml.dom/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.xml.dom/ASSEMBLY_EXCEPTION
+.
+[2025-04-13 19:26:26.651] [error] [PluginProcessHost] Agent stderr: Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.xml.dom/LICENSE
+Symlink ../java.base/ADDITIONAL_LICENSE_INFO : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.zipfs/ADDITIONAL_LICENSE_INFO
+Symlink ../java.base/ASSEMBLY_EXCEPTION : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.zipfs/ASSEMBLY_EXCEPTION
+Symlink ../java.base/LICENSE : /home/eric/Documents/curseforge/minecraft/Install/runtime/java-runtime-delta/linux/java-runtime-delta/legal/jdk.zipfs/LICENSE
+.
+[2025-04-13 19:26:46.789] [error] [PluginProcessHost] Agent stderr: [17669:17669:0413/192646.788174:ERROR:gpu_process_host.cc(1007)] GPU process exited unexpectedly: exit_code=512
+.
+[2025-04-13 19:27:44.903] [info]  [UptimeRobotApi] Executing GET request https://health.curseforge.com/app/monitorStatus.json.
+[2025-04-13 19:27:45.073] [info]  [UptimeRobotApi] Executed GET request https://health.curseforge.com/app/monitorStatus.json. Status code: 200.
+[2025-04-13 19:31:00.479] [error] [PluginProcessHost] Agent stderr: Created browser window for reuse: 0x420001f
+.
+[2025-04-13 19:31:12.547] [error] [PluginProcessHost] Agent stderr: [18854:18854:0413/193112.545854:ERROR:gl_surface_presentation_helper.cc(260)] GetVSyncParametersIfAvailable() failed for 1 times!
+.
+[2025-04-13 19:31:17.620] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_launch_modpack_requested&MUID=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&MUIDV2=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&owver=31.7.9&Extra=%7B%22app_ver%22%3A%221.275.1.24561%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22launchMethod%22%3A0%2C%22gameId%22%3A432%2C%22terminateRunningProcess%22%3Afalse%2C%22gameDashboardEnabled%22%3Afalse%7D.
+[2025-04-13 19:31:17.673] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_user_action&MUID=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&MUIDV2=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&owver=31.7.9&Extra=%7B%22app_ver%22%3A%221.275.1.24561%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22action%22%3A%22launchFromShortcutRequested%22%2C%22currentAppPage%22%3A%22MyModsPage%22%2C%22value%22%3A%22Client-Side+Mods%22%2C%22gameId%22%3A%22NaN%22%7D.
+[2025-04-13 19:31:17.700] [info]  [AnalyticsService] Executing GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_user_action&MUID=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&MUIDV2=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&owver=31.7.9&Extra=%7B%22app_ver%22%3A%221.275.1.24561%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22action%22%3A%22launchFromShortcutRequested%22%2C%22currentAppPage%22%3A%22MyModsPage%22%2C%22value%22%3A%22Client-Side+Mods%22%2C%22gameId%22%3A%22432%22%7D.
+[2025-04-13 19:31:17.809] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_launch_modpack_requested&MUID=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&MUIDV2=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&owver=31.7.9&Extra=%7B%22app_ver%22%3A%221.275.1.24561%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22launchMethod%22%3A0%2C%22gameId%22%3A432%2C%22terminateRunningProcess%22%3Afalse%2C%22gameDashboardEnabled%22%3Afalse%7D. Status code: 200.
+[2025-04-13 19:31:17.822] [info]  [MojangLauncher] Launching modpack using the Mojang Launcher. Id: e9442e5c-f1a2-4f53-a55c-f1e88e04c7bc, Launcher Args: [object Object].
+[2025-04-13 19:31:17.830] [info]  [LauncherApi] Executing GET request https://launchermeta.mojang.com/mc/game/version_manifest.json.
+[2025-04-13 19:31:17.838] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_user_action&MUID=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&MUIDV2=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&owver=31.7.9&Extra=%7B%22app_ver%22%3A%221.275.1.24561%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22action%22%3A%22launchFromShortcutRequested%22%2C%22currentAppPage%22%3A%22MyModsPage%22%2C%22value%22%3A%22Client-Side+Mods%22%2C%22gameId%22%3A%22NaN%22%7D. Status code: 200.
+[2025-04-13 19:31:17.855] [info]  [AnalyticsService] Executed GET request https://analyticsnew.overwolf.com/analytics/Counter?Name=cf_app_user_action&MUID=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&MUIDV2=70b5bfb1-514a-d075-80ad-ac7aff5aa76b&owver=31.7.9&Extra=%7B%22app_ver%22%3A%221.275.1.24561%22%2C%22os_ver%22%3A%22linux%22%2C%22app_type%22%3A%22Electron%22%2C%22action%22%3A%22launchFromShortcutRequested%22%2C%22currentAppPage%22%3A%22MyModsPage%22%2C%22value%22%3A%22Client-Side+Mods%22%2C%22gameId%22%3A%22432%22%7D. Status code: 200.
+[2025-04-13 19:31:18.076] [info]  [LauncherApi] Executed GET request https://launchermeta.mojang.com/mc/game/version_manifest.json. Status code: 200.
+[2025-04-13 19:31:19.709] [info]  [GameInstanceChangedEventHandler] Game instance changed: e9442e5c-f1a2-4f53-a55c-f1e88e04c7bc - ["Saved"].
+[2025-04-13 19:31:21.418] [info]  [GameInstanceChangedEventHandler] Game instance changed: e9442e5c-f1a2-4f53-a55c-f1e88e04c7bc - ["Saved"].
+[2025-04-13 19:31:21.423] [info]  [MinecraftInstanceTaskCompletedEventHandler] Minecraft instance task completed.
+[2025-04-13 19:31:21.503] [error] [PluginProcessHost] Agent stderr: Created browser window for reuse: 0x4200021
+.
+[2025-04-13 19:31:33.242] [info]  [SessionsService] session ended.
+[2025-04-13 19:31:33.243] [info]  [BackgroundController] Request to shutdown from tray ....
+[2025-04-13 19:31:33.244] [info]  [BackgroundController] Shutting down....
+[2025-04-13 19:31:33.244] [info]  [CoreServiceImpl] Performing shutdown cleanup actions.
+[2025-04-13 19:31:33.245] [info]  [InstalledAddonsServiceImpl] Cleanup - committing deletion transactions.
+[2025-04-13 19:31:33.246] [info]  [InstalledAddonsServiceImpl] Flushing 0 projects which are pending deletion.
+[2025-04-13 19:31:33.246] [info]  [CoreServiceImpl] Shutdown cleanup actions complete.
+[2025-04-13 19:31:33.247] [info]  [PluginCommunication] Shutting down the Mods Agent.
+[2025-04-13 19:31:35.476] [info]  [BackgroundController] Destroying desktop window....
+[2025-04-13 19:31:35.477] [info]  [AutoUpdaterServiceImpl] Stopping Auto Updater Service.
+[2025-04-13 19:31:35.479] [info]  [BackgroundController] Shutdown complete. Exiting app....
