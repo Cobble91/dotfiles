@@ -6,12 +6,12 @@ vim.cmd("set softtabstop=2")
 vim.cmd("set shiftwidth=2")
 
 -- pane navigation
-vim.keymap.set('n', '<C-k>', ':wincmd k<CR>')
-vim.keymap.set('n', '<C-j>', ':wincmd j<CR>')
-vim.keymap.set('n', '<C-h>', ':wincmd h<CR>')
-vim.keymap.set('n', '<C-l>', ':wincmd l<CR>')
-vim.keymap.set('n', '<C-w>s', ':new<CR>') -- make ^ws open blank tab
-vim.keymap.set('n', '<C-w>v', ':vnew<CR>') -- " ^wv "
+vim.keymap.set('n', '<C-k>', '<noh>wincmd k<CR>')
+vim.keymap.set('n', '<C-j>', '<noh>wincmd j<CR>')
+vim.keymap.set('n', '<C-h>', '<noh>wincmd h<CR>')
+vim.keymap.set('n', '<C-l>', '<noh>wincmd l<CR>')
+vim.keymap.set('n', '<C-w>s', '<noh>new<CR>') -- make ^ws open blank tab
+vim.keymap.set('n', '<C-w>v', '<noh>vnew<CR>') -- " ^wv "
 vim.keymap.set({'i', 'n', 'v'}, '<C-C>', '<esc>', { desc = 'Make Ctrl+C behave exactly like escape.' }) -- fixes inline error not showing after edit
 vim.keymap.set({'i', 'n', 'v'}, '<esc>', '<cmd>noh<CR>')
 
@@ -27,12 +27,12 @@ vim.cmd("set splitright") -- " to the right
 require("config.lazy")
 
 -- telescope | https://github.com/nvim-telescope/telescope.nvim
-local builtin = require('telescope.builtin')
+-- local builtin = require('telescope.builtin')
 vim.g.mapleader = " "
-vim.keymap.set('n', '<leader>ff', builtin.find_files, { desc = 'Telescope find files' })
-vim.keymap.set('n', '<leader>fg', builtin.live_grep, { desc = 'Telescope live grep' })
-vim.keymap.set('n', '<leader>fb', builtin.buffers, { desc = 'Telescope buffers' })
-vim.keymap.set('n', '<leader>fh', builtin.help_tags, { desc = 'Telescope help tags' })
+-- vim.keymap.set('n', '<leader>ff', builtin.find_files, { desc = 'Telescope find files' })
+-- vim.keymap.set('n', '<leader>fg', builtin.live_grep, { desc = 'Telescope live grep' })
+-- vim.keymap.set('n', '<leader>fb', builtin.buffers, { desc = 'Telescope buffers' })
+-- vim.keymap.set('n', '<leader>fh', builtin.help_tags, { desc = 'Telescope help tags' })
 
 -- treesitter
 -- vim.cmd [[hi @function.builtin.lua guifg=yellow]] -- change highlight settings | https://www.youtube.com/watch?v=MpnjYb-t12A
@@ -42,7 +42,7 @@ vim.keymap.set('n', '<leader>fh', builtin.help_tags, { desc = 'Telescope help ta
 vim.cmd("colorscheme onedark")
 
 -- neo-tree
-vim.keymap.set('n', '<C-n>', ':Neotree filesystem toggle left<CR>')
+vim.keymap.set('n', '<C-n>', '<cmd>Neotree filesystem toggle left<CR>')
 
 vim.cmd("set signcolumn=yes:1")
 
