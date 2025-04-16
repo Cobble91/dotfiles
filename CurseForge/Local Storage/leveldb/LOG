@@ -1,0 +1,6 @@
+2025/04/13-19:17:42.762 406b Reusing MANIFEST /home/eric/.config/CurseForge/Local Storage/leveldb/MANIFEST-000001
+2025/04/13-19:17:42.836 406b Recovering log #3
+2025/04/13-19:17:42.836 406b Reusing old log /home/eric/.config/CurseForge/Local Storage/leveldb/000003.log 
+2025/04/13-19:26:19.667 4231 Level-0 table #5: started
+2025/04/13-19:26:19.702 4231 Level-0 table #5: 22744 bytes OK
+2025/04/13-19:26:19.750 4231 Delete type=0 #3

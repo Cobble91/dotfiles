@@ -1,15 +1,23 @@
 [Added Associations]
 application/json=nvim.desktop;
+application/pdf=firefox.desktop;
 application/x-docbook+xml=nvim.desktop;
 application/x-yaml=nvim.desktop;
 text/markdown=nvim.desktop;
 text/plain=nvim.desktop;
 text/x-cmake=nvim.desktop;
+x-scheme-handler/http=firefox.desktop;
+x-scheme-handler/https=firefox.desktop;
 
 [Default Applications]
 application/json=nvim.desktop;
+application/pdf=firefox.desktop;
 application/x-docbook+xml=nvim.desktop;
 application/x-yaml=nvim.desktop;
 text/markdown=nvim.desktop;
 text/plain=nvim.desktop;
 text/x-cmake=nvim.desktop;
+x-scheme-handler/cfauth=CurseForge.desktop
+x-scheme-handler/curseforge=CurseForge.desktop
+x-scheme-handler/http=firefox.desktop;
+x-scheme-handler/https=firefox.desktop;
