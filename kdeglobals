@@ -139,6 +139,8 @@ Splitter State=\x00\x00\x00\xff\x00\x00\x00\x01\x00\x00\x00\x02\x00\x00\x00\x8c\
 
 [General]
 ColorSchemeHash=8d483e98b770fbeba364db371382301dbfc92748
+TerminalApplication=kitty
+TerminalService=kitty.desktop
 UseSystemBell=true
 XftHintStyle=hintslight
 XftSubPixel=rgb

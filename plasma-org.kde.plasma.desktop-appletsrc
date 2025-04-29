@@ -83,7 +83,7 @@ immutability=1
 plugin=org.kde.plasma.systemtray
 
 [Containments][74][Applets][79][Configuration]
-PreloadWeight=60
+PreloadWeight=65
 SystrayContainmentId=80
 
 [Containments][74][Applets][92]
@@ -91,7 +91,8 @@ immutability=1
 plugin=org.kde.plasma.digitalclock
 
 [Containments][74][Applets][92][Configuration]
-popupHeight=400
+PreloadWeight=55
+popupHeight=450
 popupWidth=560
 
 [Containments][74][Applets][93]
@@ -124,11 +125,14 @@ immutability=1
 plugin=org.kde.plasma.clipboard
 
 [Containments][80][Applets][82][Configuration]
-PreloadWeight=55
+PreloadWeight=65
 
 [Containments][80][Applets][83]
 immutability=1
 plugin=org.kde.plasma.notifications
+
+[Containments][80][Applets][83][Configuration]
+PreloadWeight=60
 
 [Containments][80][Applets][84]
 immutability=1
