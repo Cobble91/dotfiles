@@ -7,3 +7,4 @@ echo ~/.tmux.conf
 cp -f ~/.tmux.conf ./
 echo ~/.tmux/
 cp -rf ~/.tmux ./
+echo Done
