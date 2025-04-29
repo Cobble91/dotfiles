@@ -1,5 +1,3 @@
-# to add changes to ~/.config/others: cp -f ~/.bashrc ~/.config/others
-#
 # ~/.bashrc: executed by bash(1) for non-login shells.
 # see /usr/share/doc/bash/examples/startup-files (in the package bash-doc)
 # for examples
@@ -57,8 +55,6 @@ if [ -n "$force_color_prompt" ]; then
 	color_prompt=
     fi
 fi
-
-color_prompt=yes
 
 if [ "$color_prompt" = yes ]; then
     PS1='${debian_chroot:+($debian_chroot)}\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;34m\]\w\[\033[00m\]\$ '
@@ -127,3 +123,7 @@ if ! shopt -oq posix; then
     . /etc/bash_completion
   fi
 fi
+
+tmux # open tmux on terminal open
+tmux set-option destroy-unattached on # (for this session only) make closing the terminal close tmux | https://superuser.com/a/1838192
+clear # clear the warning about nesting tmux sessions

@@ -51,8 +51,8 @@ return {
         callback = function(event)
           local opts = {buffer = event.buf}
 
-          vim.keymap.set('n', 'gd', '<cmd>lua vim.lsp.buf.definition()<cr>', opts)
-          vim.keymap.set('n', 'K', '<cmd>lua vim.lsp.buf.hover()<cr>', opts)
+          vim.keymap.set('n', '<leader>gd', '<cmd>lua vim.lsp.buf.definition()<cr>', opts)
+          vim.keymap.set('n', '<leader>k', '<cmd>lua vim.lsp.buf.hover()<cr>', opts)
           vim.keymap.set('n', '<leader>vws', '<cmd>lua vim.lsp.buf.workspace_symbol<cr>', opts)
           vim.keymap.set('n', '<leader>vd', '<cmd>lua vim.lsp.buf.open_float()<cr>', opts)
           vim.keymap.set('n', '[d', '<cmd>lua vim.lsp.buf.goto_next()<cr>', opts)
