@@ -12,8 +12,15 @@ vim.keymap.set({'i', 'n', 'v'}, '<C-h>', '<cmd>wincmd h<CR>')
 vim.keymap.set({'i', 'n', 'v'}, '<C-l>', '<cmd>wincmd l<CR>')
 vim.keymap.set({'i', 'n', 'v'}, '<C-w>s', '<cmd>new<CR>') -- make ^ws open blank tab
 vim.keymap.set({'i', 'n', 'v'}, '<C-w>v', '<cmd>vnew<CR>') -- " ^wv "
-vim.keymap.set({'i', 'n', 'v'}, '<C-C>', '<esc>', { desc = 'Make Ctrl+C behave exactly like escape.' }) -- fixes inline error not showing after edit
+
+-- other keybinds
+vim.keymap.set({'i', 'n', 'v'}, '<C-c>', '<esc>', { desc = 'Make Ctrl+C behave exactly like escape.' }) -- fixes inline error not showing after edit
 vim.keymap.set({'i', 'n', 'v'}, '<esc>', '<cmd>noh<CR>')
+-- vim.keymap.set({'i', 'n', 'v'}, '<esc>', '<cmd>\'<,\'>w !clip.exe<CR>')
+vim.keymap.set({'i', 'n', 'v'}, 'gcp', function() -- https://stackoverflow.com/a/68317739
+  vim.cmd("'<,'>w !clip.exe")
+  -- vim.api.nvim_feedkeys("<esc>", 'n', false)
+end)
 
 -- other
 vim.cmd("set number") -- current line num
