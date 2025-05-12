@@ -64,11 +64,9 @@ return {
         end,
       })
 
-      -- These are just examples. Replace them with the language
-      -- servers you have installed in your system
       require('lspconfig').lua_ls.setup({})
       require('lspconfig').clangd.setup({})
-      require('lspconfig').rust_analyzer.setup({})
+      -- require('lspconfig').rust_analyzer.setup({}) -- replaced with rustaceanvim.lua bc autocomplete didnt work with this
       require('lspconfig').pyright.setup({})
       require('lspconfig').superhtml.setup({})
       require('lspconfig').cssls.setup({})
@@ -105,6 +103,9 @@ return {
           end,
         },
         mapping = cmp.mapping.preset.insert({}),
+        rust_analyzer = function()
+          return true
+        end,
       })
     end,
   },
@@ -122,17 +123,19 @@ return {
           autocomplete = false,
           completeopt = 'menu,menuone,noinsert'
         },
-        -- keybinds
         snippet = {
           expand = function(args)
             require('luasnip').lsp_expand(args.body)
           end,
         },
+        -- keybinds
         mapping = cmp.mapping.preset.insert({
           -- enter to select
           ['<CR>'] = cmp.mapping.confirm({select = false}),
           -- ^space to open menu
           ['<C-Space>'] = cmp.mapping.complete(),
+          -- ^e to close menu
+          ['<C-e>'] = cmp.mapping.abort(),
           -- Super tab
           ['<Tab>'] = cmp.mapping(function(fallback)
             local luasnip = require('luasnip')

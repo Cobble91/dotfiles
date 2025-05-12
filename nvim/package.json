@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "coc.nvim": "^0.0.83-next.9",
+    "yarn": "^1.22.22"
+  }
+}

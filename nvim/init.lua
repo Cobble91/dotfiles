@@ -29,6 +29,8 @@ vim.cmd("set nowrap") -- no wrap
 vim.cmd("set splitbelow") -- open newly-split windows below
 vim.cmd("set splitright") -- " to the right
 vim.cmd("set signcolumn=yes:1") -- make room left of line nums for error symbols
+-- vim.cmd("filetype indent off")
+vim.opt.showmode = false -- disable default mode indicator in favor of lualine
 
 ---=== Lazy Stuff ===---
 -- lazy.nvim
