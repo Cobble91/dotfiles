@@ -17,7 +17,7 @@ vim.keymap.set({'i', 'n', 'v'}, '<C-w>v', '<cmd>vnew<CR>') -- " ^wv "
 vim.keymap.set({'i', 'n', 'v'}, '<C-c>', '<esc>', { desc = 'Make Ctrl+C behave exactly like escape.' }) -- fixes inline error not showing after edit
 vim.keymap.set({'i', 'n', 'v'}, '<esc>', '<cmd>noh<CR>')
 -- vim.keymap.set({'i', 'n', 'v'}, '<esc>', '<cmd>\'<,\'>w !clip.exe<CR>')
-vim.keymap.set({'i', 'n', 'v'}, 'gcp', function() -- https://stackoverflow.com/a/68317739
+vim.keymap.set({'n', 'v'}, 'gcp', function() -- https://stackoverflow.com/a/68317739
   vim.cmd("'<,'>w !clip.exe")
   -- vim.api.nvim_feedkeys("<esc>", 'n', false)
 end)
