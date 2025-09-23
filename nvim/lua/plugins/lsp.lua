@@ -58,6 +58,7 @@ return {
           vim.keymap.set('n', '[d', '<cmd>lua vim.lsp.buf.goto_next()<cr>', opts)
           vim.keymap.set('n', ']d', '<cmd>lua vim.lsp.buf.goto_prev()<cr>', opts)
           vim.keymap.set('n', '<leader>ca', '<cmd>lua vim.lsp.buf.code_action()<cr>', opts)
+          vim.keymap.set('n', '<leader>cd', '<cmd>lua vim.diagnostic.open_float()<cr>', opts)
           vim.keymap.set('n', '<leader>rr', '<cmd>lua vim.lsp.buf.references()<cr>', opts)
           vim.keymap.set('n', '<leader>rn', '<cmd>lua vim.lsp.buf.rename()<cr>', opts)
           vim.keymap.set('i', '<C-h>', '<cmd>lua vim.lsp.buf.signature_help()<cr>', opts)
@@ -110,7 +111,7 @@ return {
     end,
   },
   {'hrsh7th/cmp-nvim-lsp'},
-  {'L3MON4D3/LuaSnip'},
+  -- {'L3MON4D3/LuaSnip'},
   {
     'hrsh7th/nvim-cmp',
     config = function()
