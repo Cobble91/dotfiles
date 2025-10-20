@@ -133,6 +133,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
+set -o vi
 tmux # open tmux on terminal open
 clear # clear the warning about nesting tmux sessions
 . "$HOME/.cargo/env"

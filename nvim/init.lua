@@ -13,11 +13,12 @@ vim.keymap.set({'i', 'n', 'v'}, '<C-j>', '<cmd>wincmd j<CR>')
 vim.keymap.set({'i', 'n', 'v'}, '<C-h>', '<cmd>wincmd h<CR>')
 vim.keymap.set({'i', 'n', 'v'}, '<C-l>', '<cmd>wincmd l<CR>')
 vim.keymap.set({'i', 'n', 'v'}, '<C-w>s', '<cmd>new<CR>') -- make ^ws open blank tab
-vim.keymap.set({'i', 'n', 'v'}, '<C-w>v', '<cmd>vnew<CR>') -- " ^wv "
+vim.keymap.set({'i', 'n', 'v'}, '<C-w>v', '<cmd>vnew<CR>') -- same for ^wv
 vim.keymap.set({'n'}, '<leader>i', '<cmd>Inspect<CR>')
 
 -- other keybinds
 vim.keymap.set({'i', 'n', 'v'}, '<C-c>', '<esc>', { desc = 'Make Ctrl+C behave exactly like escape.' }) -- fixes inline error not showing after edit
+-- vim.keymap.set({'i', 'n', 'v'}, '<C-c>', '', { desc = 'disable ctrl c' })
 -- vim.keymap.set({'i', 'n', 'v'}, '<esc>', '<cmd>noh<CR>')
 -- vim.keymap.set({'i', 'n', 'v'}, '<esc>', '<cmd>\'<,\'>w !clip.exe<CR>')
 vim.keymap.set({'n', 'v'}, 'gcp', "<cmd>\'<,\'>w !clip.exe<CR>")-- function() -- https://stackoverflow.com/a/68317739
