@@ -1,10 +1,13 @@
 #!/bin/bash
 
-echo Copying files from .config/others to appropriate locations
-echo ~/.bashrc
+echo "Copying files from .config/others to appropriate locations"
+echo "~/.bashrc"
+touch ~/.bashrc
 cp -f ./.bashrc ~/.bashrc
-echo ~/.tmux.conf
+echo "~/.tmux.conf"
+touch ~/.tmux.conf
 cp -f ./.tmux.conf ~/.tmux.conf
-echo ~/.tmux/
+echo "~/.tmux/"
+touch ~/.tmux
 cp -rf ./.tmux/. ~/.tmux
-echo Done
+echo "Done"
