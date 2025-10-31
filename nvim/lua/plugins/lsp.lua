@@ -9,17 +9,17 @@ return {
     end,
     lazy = false,
     opts = {
-      ensure_installed = {
-        "lua_ls",
-        "clangd",
-        "rust_analyzer",
-        "pyright",
-        "superhtml",
-        "cssls",
-        "ts_ls",
-        "java_language_server",
-        "texlab"
-      },
+      -- ensure_installed = {
+      --   "lua_ls",
+      --   "clangd",
+      --   "rust_analyzer",
+      --   "pyright",
+      --   "superhtml",
+      --   "cssls",
+      --   "ts_ls",
+      --   "java_language_server",
+      --   "texlab"
+      -- },
       handlers = {
         function(server_name)
           require('lspconfig')[server_name].setup({})
@@ -65,15 +65,34 @@ return {
         end,
       })
 
-      require('lspconfig').lua_ls.setup({})
-      require('lspconfig').clangd.setup({})
-      -- require('lspconfig').rust_analyzer.setup({}) -- replaced with rustaceanvim.lua bc autocomplete didnt work with this
-      require('lspconfig').pyright.setup({})
-      require('lspconfig').superhtml.setup({})
-      require('lspconfig').cssls.setup({})
-      require('lspconfig').ts_ls.setup({})
-      require('lspconfig').java_language_server.setup({})
-      require('lspconfig').texlab.setup({})
+      -- require('lspconfig').lua_ls.setup({})
+      -- require('lspconfig').clangd.setup({})
+      -- -- require('lspconfig').rust_analyzer.setup({}) -- replaced with rustaceanvim.lua bc autocomplete didnt work with this
+      -- require('lspconfig').pyright.setup({})
+      -- require('lspconfig').superhtml.setup({})
+      -- require('lspconfig').cssls.setup({})
+      -- require('lspconfig').ts_ls.setup({})
+      -- require('lspconfig').java_language_server.setup({})
+      -- require('lspconfig').texlab.setup({})
+      local lsps = {
+        { "lua_ls" },
+        { "clangd" },
+        -- { "rust_analyzer" },
+        { "pyright" },
+        { "superhtml" },
+        { "cssls" },
+        { "ts_ls" },
+        { "java_language_server" },
+        { "texlab" }
+      }
+
+      for _, lsp in pairs(lsps) do
+        local name, config = lsp[1], lsp[2]
+        vim.lsp.enable(name)
+        if config then
+          vim.lsp.config(name, config)
+        end
+      end
 
       vim.diagnostic.config({
         virtual_text = true,

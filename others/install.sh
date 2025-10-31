@@ -3,6 +3,9 @@
 echo "Pasting Other Stuff"
 bash ./paste_others.sh
 
+echo "Misc"
+export PATH=$PATH:/usr/local/bin
+
 echo "Tmux Stuff"
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 tmux source ~/.tmux.conf
