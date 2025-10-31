@@ -8,6 +8,6 @@ echo "~/.tmux.conf"
 touch ~/.tmux.conf
 cp -f ./.tmux.conf ~/.tmux.conf
 echo "~/.tmux/"
-touch ~/.tmux
-cp -rf ./.tmux/. ~/.tmux
+mkdir ~/.tmux
+cp -rf ./.tmux ~/.tmux
 echo "Done"
