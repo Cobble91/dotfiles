@@ -52,7 +52,7 @@ return {
           local opts = {buffer = event.buf}
 
           vim.keymap.set('n', '<leader>gd', '<cmd>lua vim.lsp.buf.definition()<cr>', opts)
-          vim.keymap.set('n', '<leader>k', '<cmd>lua vim.lsp.buf.hover()<cr>', opts)
+          vim.keymap.set('n', '<leader>k', '<cmd>lua vim.lsp.buf.hover({border = "rounded"})<cr>', opts)
           vim.keymap.set('n', '<leader>vws', '<cmd>lua vim.lsp.buf.workspace_symbol<cr>', opts)
           vim.keymap.set('n', '<leader>vd', '<cmd>lua vim.lsp.buf.open_float()<cr>', opts)
           vim.keymap.set('n', '[d', '<cmd>lua vim.lsp.buf.goto_next()<cr>', opts)
@@ -96,8 +96,15 @@ return {
 
       vim.diagnostic.config({
         virtual_text = true,
-        signs = true,
-        update_in_insert = false,
+        signs = {
+            active = true,
+            text = {
+              [vim.diagnostic.severity.ERROR] = "",
+              [vim.diagnostic.severity.WARN]  = "",
+              [vim.diagnostic.severity.HINT]  = "󰌶",
+              [vim.diagnostic.severity.INFO]  = "",
+            },
+        },
         underline = true,
         severity_sort = true,
         float = {

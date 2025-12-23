@@ -18,5 +18,6 @@ rustup component add rust-analyzer
 
 echo "Latex Stuff"
 sudo apt install texlive-core
+cargo install --locked tree-sitter-cli
 
 echo "Done"

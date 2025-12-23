@@ -62,3 +62,9 @@ vim.keymap.set('n', '<C-n>', '<cmd>Neotree filesystem toggle left<CR>')
 vim.keymap.set('n', '<leader>td', function()
   vim.diagnostic.enable(not vim.diagnostic.is_enabled())
 end, { silent = true, noremap = true })
+
+-- syntax highlighting
+-- vim.cmd("syntax enable")
+
+-- smth messed up latex/markup math highlighting, so this makes it steal the highlighting from numbers (plain orange text)
+vim.api.nvim_set_hl(0, "@markup.math", { link = "@number" })
